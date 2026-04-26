@@ -1,3 +1,8 @@
+/*
+Closure is a function + its surrounding state.
+
+Closure → function + surrounding state (useful for creating dynamic behavior).
+*/
 package main
 
 import "fmt"

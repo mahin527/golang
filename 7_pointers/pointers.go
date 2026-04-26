@@ -1,3 +1,12 @@
+/*
+Pointer means memory address reference.
+
+Copying a struct creates a new instance,
+but passing a pointer creates a shared reference.
+
+Pointer → reference, used to modify original data.
+*/
+
 package main
 
 import "fmt"
