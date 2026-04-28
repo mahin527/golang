@@ -23,9 +23,12 @@ func main() {
 	fmt.Println(name, age)
 	fmt.Println(isActive)
 
-	// shorthand syntex
+	var name5 = "Hasan"
+
+	// shorthand syntex of declaring variables
+
 	name2 := "Mahin"
-	fmt.Println(name2)
+	fmt.Println(name2, name5)
 
 	var name3 string
 
@@ -123,6 +126,7 @@ func main() {
 
 	// type switch
 	WhoAmI := func(i interface{}) {
+		// WhoAmI := func(i any{}) {
 		switch t := i.(type) {
 		// switch i.(type) {
 		case int:
@@ -143,7 +147,10 @@ func main() {
 	WhoAmI("Mahin")
 	WhoAmI(true)
 
-	// Array
+	//======================
+	//======== Array =======
+	//======================
+
 	// numbered sequence of specific length
 	var names [4]string
 
