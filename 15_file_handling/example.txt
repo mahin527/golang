@@ -1,0 +1,6 @@
+Hello, I am Mahin Hasan.
+
+Hello golang!
+
+Bye buddy, I am busy write now.
+
